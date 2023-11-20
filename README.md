@@ -10,7 +10,7 @@ A simple mod for Lethal Company to re-bind the Push-To-Talk button to the mouse.
 #### Compilation steps:
 1. Set the game directory variable (e.g. ``D:\SteamLibrary\steamapps\common\Lethal Company``):
 
-**For Windows cmd.exe**.
+**For Windows cmd.exe**
 ```batch
 set LETHAL_COMPANY_DIR="game directory here".
 ```
