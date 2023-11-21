@@ -4,7 +4,7 @@ A simple mod for Lethal Company that allows to re-bind the Push-To-Talk button t
 ### Compilation from source
 
 ### Requirements
-1. any .NET implementation that supports ``netstandard2.1`` and C# 10+.
+1. Any .NET implementation that supports ``netstandard2.1`` and C# 10+.
 2. An installed **Lethal Company** on your PC.
 
 #### Compilation steps:
