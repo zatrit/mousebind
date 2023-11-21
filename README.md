@@ -25,4 +25,4 @@ $env:LETHAL_COMPANY_DIR="game directory here"
 LETHAL_COMPANY_DIR="game directory here"
 ```
 
-2. Run ``dotnet build -P:Configuration=Release`` to compile the game from source with *Release* configuration.
+2. Run ``dotnet build -P:Configuration=Release`` to compile the mod from source with *Release* configuration.
