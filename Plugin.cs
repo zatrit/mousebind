@@ -2,11 +2,13 @@
 using HarmonyLib;
 using MouseBind.Patches;
 
+using static MouseBind.PluginInfo;
+
 namespace MouseBind;
 
 #pragma warning disable IDE0051
 
-[BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+[BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin {
-    void Awake() => new Harmony(PluginInfo.PLUGIN_GUID).PatchAll(typeof(AllowMouseBindings));
+    void Awake() => new Harmony(PLUGIN_GUID).PatchAll(typeof(AllowMouseBindings));
 }
