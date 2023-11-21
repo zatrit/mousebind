@@ -6,8 +6,6 @@
     <Description>Allows to bind voice chat on mouse buttons</Description>
     <Version>1.0.0</Version>
     <LangVersion>latest</LangVersion>
-	
-    <DoNotCopyLocalIfInGac>true</DoNotCopyLocalIfInGac>
   </PropertyGroup>
 
   <ItemGroup>
