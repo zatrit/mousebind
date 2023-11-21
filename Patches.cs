@@ -9,8 +9,8 @@ namespace MouseBind.Patches;
 
 [HarmonyPatch(typeof(IngamePlayerSettings), "RebindKey")]
 public class AllowMouseBindings {
-    static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> codes) =>
-        codes.Where(code => {
+    static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> codes)
+        => codes.Where(code => {
             var isLdstrMouse = code.opcode == OpCodes.Ldstr && code.OperandIs("Mouse");
             var isExcludeCall = code.Calls(typeof(RebindingOperation).GetMethod("WithControlsExcluding"));
 

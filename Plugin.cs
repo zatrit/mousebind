@@ -1,8 +1,8 @@
-﻿namespace MouseBind;
-
-using BepInEx;
+﻿using BepInEx;
 using HarmonyLib;
 using MouseBind.Patches;
+
+namespace MouseBind;
 
 #pragma warning disable IDE0051
 
